@@ -1,0 +1,630 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Additions to the history and antiquities of Rutlandshire</title>
+            <author>Wright, James, 1643-1713.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1687</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 42 KB of XML-encoded text transcribed from 6 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A67157</idno>
+            <idno type="STC">Wing W3691</idno>
+            <idno type="STC">ESTC R8889</idno>
+            <idno type="EEBO-CITATION">13534360</idno>
+            <idno type="OCLC">ocm 13534360</idno>
+            <idno type="VID">100026</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A67157)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100026)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 481:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Additions to the history and antiquities of Rutlandshire</title>
+                  <author>Wright, James, 1643-1713.</author>
+                  <author>Wright, James, 1643-1713. History and antiquities of the county of Rutland.</author>
+               </titleStmt>
+               <extent>12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the author by Edw. Jones,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1687.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Appears in his The history and antiquities of the county of Rutland.  London, 1684.</note>
+                  <note>Printed in double columns.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Rutland (England)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-11</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2011-11</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="frontispiece">
+            <pb facs="tcp:100026:1"/>
+            <p>
+               <figure>
+                  <head>
+                     <g ref="char:V">Ʋ</g>iro honorabili &amp; proeclaro Johanni Noel Armigero Tabula meritò dicata.</head>
+                  <figDesc>frontispiece</figDesc>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="3" facs="tcp:100026:1"/>
+            <head>ADDITIONS TO THE Hiſtory and Antiquities OF RUTLANDSHIRE</head>
+            <p>SInce the printing and publiſhing of the foreſaid Book, the Honourable <hi>John Noel</hi> 
+               <abbr>Eſq</abbr> Third Son (now li<g ref="char:EOLhyphen"/>ving) of the Right Honourable <hi>Baptiſt</hi> late Viſcount <hi>Campden,</hi> hath beſtowed the Sum of One thouſand Pounds in erecting a moſt Noble and Exquiſite Monument in the North-ſide of <hi>Erton</hi> Church in this County, to the Memory of the ſaid Lord his Father. It is in Height 22 Foot, and 14 Foot in Breadth, and contains, at a convenient diſtance from the Floor, two admirable Statues, of the ſaid Viſcount <hi>Campden,</hi> and <hi>Elizabeth</hi> his laſt Lady, ſtanding upright, ſomthing bigger than the Life. Between theſe two Sta<g ref="char:EOLhyphen"/>tues is a Pedeſtal ſupporting an Urne. On the outward ſides of the Statues are placed two great Pyramids, each ſupporting a Vaſe of black Marble twiſted about with Feſtoons of white. And in ſeveral parts of the Monu<g ref="char:EOLhyphen"/>ment, are repreſented in Baſ-releif, the ſeve<g ref="char:EOLhyphen"/>ral Matches of the ſaid Lord, and all the Iſ<g ref="char:EOLhyphen"/>ſue, as well living as dead, by thoſe Matches. The whole is the Workmanſhip of that juſt<g ref="char:EOLhyphen"/>ly admired Artiſt Mr. <hi>Grinlin Gibbon,</hi> whoſe Carving at <hi>Windſor, Whitehall,</hi> and elſewhere, not only in this Nation, but in Foreign parts, have cauſed him to be eſteem'd the beſt of <hi>Engliſh</hi> Statuaries, and perhaps inferior to none beyond the Seas.</p>
+            <p>On two Tables of black Marble, below the two Pyramids, are the following Inſcri<g ref="char:EOLhyphen"/>ptions in Letters of Gold, <hi>viz.</hi> on that on the Left Hand, theſe words:</p>
+            <p>
+               <hi>Here reſteth</hi> Baptiſt Noel <hi>Lord Viſcount</hi> Campden, <hi>Baron of <hi>Ridlington</hi> and <hi>Ilmington,</hi> Lord Lieutenant of the County of <hi>Rutland.</hi> His eminent Loy<g ref="char:EOLhyphen"/>alty to his two Sovereigns, King Charles I. and II. his Conjugal Affection to Four Wives; his Paternal Indulgence to Nine<g ref="char:EOLhyphen"/>teen Children; his Hoſpitality and Libe<g ref="char:EOLhyphen"/>rality to all that deſired or deſerved it (notwithſtanding ineſtimable Loſſes in his Eſtate, frequent Impriſonments of his Perſon, Spoil and Havock of ſeveral of his Houſes, beſides the Burning of that No<g ref="char:EOLhyphen"/>ble Pile of <hi>Campden</hi>) have juſtly ren<g ref="char:EOLhyphen"/>dred him the Admiration of his Contempo<g ref="char:EOLhyphen"/>raries, and the Imitation of Poſterity. He left this Life for the Exchange and Fruition of a better, the</hi> 29th <hi>day of</hi> Octo<g ref="char:EOLhyphen"/>ber, <hi>in the</hi> LXXI <hi>year of his Age.</hi> A. D. MDCLXXXIII.</p>
+            <p>And on that on the other Hand, theſe Words:</p>
+            <p>
+               <hi>He took to his Firſt Wife</hi> Ann Fielding, 2d <hi>Daughter to</hi> William <hi>Earl of <hi>Denbigh,</hi> by whom he had Three Children, who Dy<g ref="char:EOLhyphen"/>ed in their Infancy. By his Second Wife,</hi> Ann <hi>Counteſs of <hi>Bath,</hi> he had One Son Still-Born. By his Third Wife,</hi> Heſter, <hi>One of the Four Daughters and Coheirs of</hi> Thomas <hi>Lord</hi> Wootton, <hi>he had Two Sons and Four Daughters;</hi> 1. Edward, <hi>preſent Earl of <hi>Gainesburgh,</hi> Governor of <hi>Portſmouth,</hi> Lord-Lieutenant of <hi>Hampſhire</hi> and <hi>Rutland;</hi>
+               </hi> 2d. Henry Noel, <hi>late of <hi>North-Luffenham</hi>
+               </hi> 
+               <abbr>Eſq</abbr> 
+               <hi>who Died in the</hi> 35 <hi>year of his Age;</hi> 3d. Ma<g ref="char:EOLhyphen"/>ry <hi>preſent Counteſs of <hi>Northampton;</hi>
+               </hi> 4th. Juliana, <hi>Wife of</hi> William <hi>Lord</hi> Allington; 5th. Heſter, <hi>who Died an Infant;</hi> 6th. Elizabeth, <hi>Wife of</hi> Charles <hi>Lord</hi> Dureſly, <hi>Son and Heir apparent of</hi> George <hi>Earl of</hi> Barkley. <hi>By his</hi> 4th <hi>Wife (who ſtand<g ref="char:EOLhyphen"/>eth by his Side</hi>) Elizabeth Bertie, <hi>eldeſt Daughter of</hi> Mountagu <hi>Earl of Lindſey, Lord Great Chamberlain of <hi>England,</hi> he had Nine Children,</hi> 1ſt. Lindſey Noel, <hi>who Died in his Infancy;</hi> 2d. Catherine <hi>now Wife of</hi> John <hi>Earl of <hi>Rutland;</hi>
+               </hi> 3d. Baptiſt Noel <abbr>Eſq</abbr> 
+               <hi>now living;</hi> 4th. John Noel <abbr>Eſq</abbr> 
+               <hi>lik<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>wiſe living;</hi> 5th. Bridget Noel <hi>alſo living;</hi> 6th. <hi>A Son, whoſe ear<g ref="char:EOLhyphen"/>ly Birth prevented his Baptiſme;</hi> 7th. James Noel <abbr>Eſq</abbr> 
+               <hi>who died in the</hi> 18th <hi>year of his Age;</hi> 8th. Martha Penelope <hi>now living;</hi> 9th. <hi>A Son Still-Born.</hi>
+            </p>
+            <p>In the middle of the Pedeſtal which ſtands between the two Great Figures.</p>
+            <p>
+               <hi>To the Pious Memory of Her ſaid Huſ<g ref="char:EOLhyphen"/>band, his Wives, their, and her own Chil<g ref="char:EOLhyphen"/>dren,</hi> Elizabeth <hi>his laſt Wife in her Life time gave Monies, and left Orders for the Building this Monument, which by her Third Son and Executor, the Honourable</hi> John Noel <hi>was punctually perform'd,</hi> 1686.</p>
+            <pb n="4" facs="tcp:100026:2"/>
+            <p>HEre follow certain Ancient Epitaphs, and Monumental Inſcriptions, not now in be<g ref="char:EOLhyphen"/>ing, but totally decay'd, or in the times of Re<g ref="char:EOLhyphen"/>bellion erazed and obliterated, mentioned in a Manuſcript Collection of Church-Notes, long ſince read and obſerved in the ſeveral Churches under-named, by that skilful Herald Mr. <hi>Auguſtin Vincent;</hi> when in the year 1618, he Viſited in <hi>Rutland,</hi> as Deputy to the fa<g ref="char:EOLhyphen"/>mous <hi>Cambden Clarencieux:</hi> Which with ma<g ref="char:EOLhyphen"/>ny other Manuſcripts of the ſaid Mr. <hi>Vincent</hi>'s, formerly in the poſſeſſion of <hi>Ralph Shelden</hi> of <hi>Beoly,</hi> in the County of <hi>Worceſter</hi> 
+               <abbr>Eſq</abbr> were, ſince his death, lately given to the He<g ref="char:EOLhyphen"/>ralds-Office, where they now remain.</p>
+            <p>In the Church at <hi>Glaſton.</hi>
+            </p>
+            <p>
+               <hi>Hic jacet Walterus Collie Dominus &amp; Pa<g ref="char:EOLhyphen"/>tronus hujus Villae, &amp; Agnes <g ref="char:V">Ʋ</g>xor ejus, qui obiit,</hi> Ann. Dom. 1407.</p>
+            <p>On another Monument.</p>
+            <q>
+               <l>In Lindon Natus, Johannes ſic vocitatus,</l>
+               <l>Linguae limatus, apud Oxoniam graduatus,</l>
+               <l>Doctor formatus, Aulae Merton ſociatus,</l>
+               <l>Oxoniae gratus, Commiſſarius reputatus,</l>
+               <l>Glaſtonae Praelatus, jacet ſub marmore ſtratus</l>
+               <l>Moribus ornatus, fit tecum, Chriſte, beatus.</l>
+               <l>Annos millenos, quadringenos lege plenos</l>
+               <l>Trinos &amp; ſenos, nunc Caelos ſcandit anaenos.</l>
+            </q>
+            <p>On Another.</p>
+            <p>Here lieth Sir <hi>John Bramſpath,</hi> which was made Knight; He died in the year of our Lord, 1443.</p>
+            <p>On Another.</p>
+            <p>
+               <hi>Orate pro animabus Johannis Baſſet, &amp; Agnetis <g ref="char:V">Ʋ</g>xoris ejus.</hi>
+            </p>
+            <p>In the Chancel at <hi>Retton.</hi>
+            </p>
+            <p>
+               <hi>Orate pro anima Roberti Whytbie quon<g ref="char:EOLhyphen"/>dam Praebendarii de Ketton.</hi>
+            </p>
+            <p>In the Church of <hi>North-Luffenham.</hi>
+            </p>
+            <p>Upon a Monument, on the South-ſide of the Church.</p>
+            <p>
+               <hi>Simon Digby</hi> 
+               <abbr>Eſq</abbr> Penſioner to King <hi>Henry</hi> the 8th. Second Son to Sir <hi>John Digby</hi> Knight-Marſhal, which <hi>Simon</hi> Married <hi>Katherine</hi> Daughter of <hi>Chriſto<g ref="char:EOLhyphen"/>pher Clapham</hi> of <hi>Beaumeſly,</hi> in the Coun<g ref="char:EOLhyphen"/>ty of <hi>York</hi> 
+               <abbr>Eſq</abbr> and <hi>Roger Digby</hi> their Son and Heir, Married <hi>Mary</hi> Daughter of <hi>John Cheiney</hi> of <hi>Shordelous</hi> in <hi>Buck<g ref="char:EOLhyphen"/>inghamſhire,</hi> Ann. Dom. 1582.</p>
+            <p>In the Church of <hi>Okeham.</hi>
+            </p>
+            <p>Upon a Grave-ſtone; in Braſs,</p>
+            <p>
+               <hi>Hic jacet Willielmus Waren quondam hujus Villae Burgenſis &amp; Mercator Stapule Villae Caliſiae, ac etiam Domina Agnes <g ref="char:V">Ʋ</g>x<g ref="char:EOLhyphen"/>or ejus &amp; relicta, qui quidem Willielmus obijt Ann.</hi> 1499. <hi>Decimo die Septemb.</hi>
+            </p>
+            <p>On Another.</p>
+            <p>
+               <hi>Hic jacet Willielmus Dalby &amp; Agnes <g ref="char:V">Ʋ</g>xor ejus, qui quidem Willielmus obiit in vigilia Annuntiationis beatae Mariae Virgi<g ref="char:EOLhyphen"/>nis. Ann.</hi> 1404. <hi>&amp; praedicta Agnes—</hi>
+            </p>
+            <p>Painted on the Wall in the ſaid Church.</p>
+            <list>
+               <item>Mr. <hi>John Pooly</hi> of <hi>Martinſthorp <hi>Ann.</hi>
+                  </hi> 1557.</item>
+               <item>Which lyeth Buried here, <hi>Ann.</hi> 1557.</item>
+               <item>Hath given the Poor in <hi>Okeham <hi>Ann.</hi>
+                  </hi> 1557.</item>
+               <item>Ten pounds by the year. <hi>Ann.</hi> 1557.</item>
+            </list>
+            <div type="part">
+               <head>Other Supplemental Additions.</head>
+               <p>
+                  <table>
+                     <head>Pa. 14. In the Liſt of Sheriffs.</head>
+                     <row>
+                        <cell role="label">
+                           <hi>A. D.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>A. R.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Jucobus</hi> 2.</cell>
+                     </row>
+                     <row>
+                        <cell>1685</cell>
+                        <cell>1</cell>
+                        <cell>
+                           <hi>Johannes Bullingham,</hi> Arm.</cell>
+                     </row>
+                     <row>
+                        <cell>1686</cell>
+                        <cell>2</cell>
+                        <cell>
+                           <hi>Euſebius Buſwel, alias Pelſant.</hi> Arm.</cell>
+                     </row>
+                     <row>
+                        <cell>1687</cell>
+                        <cell>3</cell>
+                        <cell>
+                           <hi>Clemens Breton,</hi> Armig.</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <table>
+                     <head>Pa. 16. In the Liſt of the Knights of the Shire.</head>
+                     <row>
+                        <cell role="label">
+                           <hi>A. R.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>Regn. Jacobi</hi> 2.</cell>
+                     </row>
+                     <row>
+                        <cell>1 <hi>Baptiſta Noel</hi> Armiger.</cell>
+                        <cell>1 <hi>Thomas Mackworth, Baronettus.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+               <pb n="5" facs="tcp:100026:2"/>
+               <p>Pa. 27.</p>
+               <p>OF the Priory of Canons here at <hi>Brook,</hi> I have this further to add, out of cer<g ref="char:EOLhyphen"/>tain old Deeds and Grants now in my Poſſeſſi<g ref="char:EOLhyphen"/>on. Their Eſtate lay at <hi>Brook, Braun<g ref="char:EOLhyphen"/>ſton, Knauſton, Okeham</hi> and <hi>Langham,</hi> all Towns near adjoyning. As to what they held in <hi>Braunſton,</hi> I find that <hi>Reginald,</hi> Son of <hi>Robert de Branteſton,</hi> gave to God, and the Sacriſty of the Church of the Bleſſed <hi>Mary</hi> of <hi>Brot,</hi> the yearly Rent of 12 <hi>d.</hi> which the Canons there did uſe to pay year<g ref="char:EOLhyphen"/>ly to the ſaid <hi>Reginald,</hi> as Capital Lord of <hi>Braunſton</hi> for one Bouate of Land holden of him; which ſaid Rent he did appoint for the maintaining of the 4<hi rend="sup">th</hi> and 5<hi rend="sup">th</hi> Lamp at our Ladys Veſpers and Matins; And in like manner for the maintenance of the 4<hi rend="sup">th</hi> and 5<hi rend="sup">th</hi> Candle at the High Maſs, and at our Ladies Morning Maſs. A little before the Suppreſſion, <hi>Robert Orwell</hi> Prior, and the Covent of this Houſe, did by their Leaſe, Dated 12<hi rend="sup">th</hi> of <hi>May</hi> 23. <hi>H.</hi> 8. Demiſe to <hi>Robert Reve, John</hi> his Son, and <hi>Joan</hi> his Wife, Dwelling in <hi>Knoſton</hi> in the County of <hi>Leiceſter,</hi> a Meſe place, and four Yard Lands, with all Houſes, Meaſages, Paſtures, Commons and Liberties, late in the Tenure of the ſaid <hi>Robert Reve,</hi> lying in the Town and Fields of <hi>Knowſington</hi> and <hi>Braunſton</hi> for their ſeveral Lives, at the yearly Rent of 43 <hi>s.</hi> 4 <hi>d.</hi> And beſides uſual Covenants, the Leſſees obliged themſelves to Set and Plant 100 Aſhes upon the Lands and Ground ſo Demiſed, within the ſpace of five years next enſuing from the Date of the Leaſe. This Leaſe was confirmed by <hi>Antho<g ref="char:EOLhyphen"/>ny Coope</hi> 
+                  <abbr>Eſq</abbr> to whom the Lands belonging to this Priory were Granted after the Sup<g ref="char:EOLhyphen"/>preſſion. The reſt of the Lands, belonging to this Houſe, with the Reverſion upon this Leaſe, were Sold and Conveyed 20 <hi>Jan.</hi> 36, <hi>H.</hi> 8. By <hi>Anthony Coope</hi> of <hi>Hardwicke</hi> in the County of <hi>Oxford</hi> 
+                  <abbr>Eſq</abbr> to <hi>John Burton</hi> of <hi>Braunſton:</hi> Yet ſome of the Lands being held <hi>in Capite,</hi> were not alienated till 30 <hi>Octob.</hi> 13 <hi>Eliz.</hi> At which time that Queen Granted her Licence of Alienation to <hi>Anthony Cope</hi> 
+                  <abbr>Eſq</abbr>, and <hi>John Peck,</hi> to Convey the ſame to <hi>William Burton,</hi> Son and Heir of the foreſaid <hi>John Burton.</hi> This parcel was expreſt by the Name of <hi>Flectmeadow,</hi> with the Appur<g ref="char:EOLhyphen"/>tenances in <hi>Braunſton,</hi> containing by eſti<g ref="char:EOLhyphen"/>mation 15 Acres, late in the tenure of <hi>Joan Ryve</hi> Widow. Their Eſtate in <hi>Okeham</hi> and <hi>Langham</hi> was of a very antient Grant, but of no great value; and as I believe, they loſt the Poſſeſſion of part of it long before the Suppreſſion. <hi>Walkelinus de Ferrariis</hi> (who was Lord of <hi>Okeham, Langham,</hi> and <hi>Brook,</hi> in the time of King <hi>Hen.</hi> 2 d. and ſeems to be the Firſt Founder of this Houſe) Gave to God, and to the Church of <hi>St. Mary</hi> of <hi>Broch,</hi> and the Canons there, in pure and perpetual Alms, the Homage and Service of <hi>Jordanus de Saxonis,</hi> and whatſoever Right he had in him and his Tenement; and alſo the Tithes of the Profits ariſing from the Fair at <hi>Okeham,</hi> held at the Feaſt of the Decol<g ref="char:EOLhyphen"/>lation of <hi>St. John Baptiſt;</hi> and of the Mills of the ſaid Town of <hi>Okeham,</hi> and of <hi>Lang<g ref="char:EOLhyphen"/>ham.</hi> Witneſſes to which Deed were <hi>Simo<g ref="char:EOLhyphen"/>ne Presbitero de <hi>Okeham,</hi> Gilberto Fratre ejus, H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>gone de Ferrariis, Willielmo de Frenes, Galfrido de Carento, Magiſtro Johanne Medico,</hi> &amp;c. This Deed was afterwards confirmed by <hi>Henry de Ferrariis,</hi> Son of <hi>Walkeline,</hi> and after that by <hi>Iſabel de Mortuomari,</hi> Widow of <hi>Roger de Mortuomari,</hi> Siſter and Heir of the ſaid <hi>Henry de Ferrariis.</hi> Long after this, <hi>viz.</hi> At the Great Court of <hi>Edward</hi> Duke of <hi>York</hi> (who was alſo Earl of <hi>Rutland,</hi>) held at <hi>Oke<g ref="char:EOLhyphen"/>ham</hi> on the Wedneſday next after the Feaſt of <hi>St. Michael,</hi> in the 6<hi rend="sup">th</hi>. <hi>H.</hi> 4. the then Prior of <hi>Brook</hi> exhibited his Claim to the Tithes of the Mills of <hi>Ocham</hi> and <hi>Lang<g ref="char:EOLhyphen"/>ham,</hi> valued at 24 <hi>s. per Ann,</hi> which his Pre<g ref="char:EOLhyphen"/>deceſſors had formerly enjoy'd, except for ſix years laſt paſt: But whether he ever en<g ref="char:EOLhyphen"/>joy'd them afterwards, does not appear. The before-mentioned <hi>Iſabel de Mort<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>omari</hi> Granted to the Prior and Canons of <hi>Broke</hi> a Tenement in <hi>Langham,</hi> which <hi>Gilbert Ca<g ref="char:EOLhyphen"/>recarius</hi> held of her, and directed her Precept under her Seal to <hi>William de Hampton,</hi> her then Bayliffe at <hi>Okeham,</hi> to deliver to the ſaid Prior, full Seiſin of the ſame. Of their Eſtate at <hi>Brook,</hi> I have already Treated, to which I ſhall only add, That in the place where the Priory of <hi>Brook</hi> formerly ſtood, <hi>viz.</hi> about a Flight-ſhot Weſt of the Town, hath been ſince the Diſſolution of the ſaid Priory, erected a very fair Houſe, which has been for many years paſt the Reſidence of the Noble Family of the <hi>Noels;</hi> and was, of late years, a noted Seat of Hoſpitality, during the Life of <hi>Julian</hi> late Viſcounteſs <hi>Campden,</hi> Relict of <hi>Edward</hi> Viſcount <hi>Camp<g ref="char:EOLhyphen"/>den:</hi> which Lady was the eldeſt of the two Daughters and Co-Heirs of Sir <hi>Baptiſt Hicks</hi> Knight and Baronet, Lord <hi>Hicks</hi> of <hi>Ilming<g ref="char:EOLhyphen"/>ton,</hi> and Viſcount <hi>Campden;</hi> who at his own proper Charges built the Seſſions-houſe in <hi>St. <hi>Iohn-ſtreet</hi>
+                  </hi> at <hi>London,</hi> well known by the name of <hi>Hicks's Hall.</hi> He alſo did divers other publick Works of Charity; Among the reſt he Founded an Hoſpital for ſix poor Men, and Women, at <hi>Campden</hi> in <hi>Glou<g ref="char:EOLhyphen"/>ceſterſhire;</hi> wherein he appointed to each of them two Rooms, a little Garden, and two ſhil<g ref="char:EOLhyphen"/>lings a week for their maintenance; which Endowment his ſaid Daughter <hi>Julian</hi> Viſcoun<g ref="char:EOLhyphen"/>teſs <hi>Campden</hi> did much enlarge, and departed this Life at <hi>Brooke</hi> her conſtant Reſidence, on the 25<hi rend="sup">th</hi> of <hi>November,</hi> in the year 1680. being then about One hundred years of Age. She had Iſſue by her ſaid Husband, <hi>Edward</hi> Viſcount <hi>Campden,</hi> two Sons and two Daugh<g ref="char:EOLhyphen"/>ters, <hi>viz. Baptiſt</hi> Viſcount <hi>Campden, Henry Noel</hi> of <hi>Luffenham</hi> 
+                  <abbr>Eſq</abbr> 
+                  <hi>Elizabeth</hi> Married to Sir <hi>Eraſmus de la Fountaine</hi> Kt. and <hi>Penelope</hi> to <hi>John</hi> Viſcount <hi>Chaworth.</hi>
+               </p>
+               <pb n="6" facs="tcp:100026:3"/>
+               <figure>
+                  <head>Brook Houſe on the South ſide</head>
+                  <p>
+                     <hi>Illuſtriſsimo One <gap reason="illegible" resp="#PDCC" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> ENOARDO Coun<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> de Ganeſt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>gh <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#PDCC" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> Campden, D<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>. NOEL<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Hick<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Baroni de Ridlington &amp; Ilming<g ref="char:EOLunhyphen"/>ton in Comilatibus Hanloni<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e R<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>landior Locumlenenti Ne<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#PDCC" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> Fore<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap> Gardiano, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>u<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ernatori de Portsmouth</hi> Hanc Tabulam. H.D. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.W.</p>
+                  <figDesc>depiction of house</figDesc>
+               </figure>
+               <p>Pa. 50.</p>
+               <p>WHich moſt Noble Lord, <hi>Robert</hi> Earl of <hi>Aylesbury,</hi> Our now Gracious Soveraign King <hi>JAMES</hi> II. as a further remuneration of Honor, did conſtitute Lord Chamberlain of His Majeſties Houſhold in <hi>July</hi> 1685. but he ſurvived not long to en<g ref="char:EOLhyphen"/>joy the Office, departing this Life at his Seat at <hi>Ampthill</hi> in <hi>Bedfordſhire,</hi> on the 20<hi rend="sup">th</hi> of <hi>October</hi> the ſame year, to the great grief of all that knew him. He being a Perſon of ſingular Merit for his conſtant Loyalty, un<g ref="char:EOLhyphen"/>feigned Religion, Virtue and Honour; of great Learning Himſelf, and a Noble <hi>Me<g ref="char:EOLhyphen"/>caenas</hi> to all the Learned; a lover of Hoſpi<g ref="char:EOLhyphen"/>tality, and a conſtant Benefactor to the Poor. He Married the Lady <hi>Diana,</hi> Daughter of <hi>Henry</hi> Earl of <hi>Stamford,</hi> and by her left Iſſue ſurviving of both Sexes. Whoſe eldeſt Son and Heir, the Right Honourable <hi>Thomas</hi> now Earl of <hi>Aylesbury</hi> and <hi>Elgm.</hi> is the true Inheritor of both his Fathers Honours, and Virtues, and is one of the Gentlemen of His now Majeſties Bed-Chamber, as he was alſo to His late Majeſty King <hi>CHARLES</hi> II. of ever Glorious Memory.</p>
+               <p>Pa. 78.</p>
+               <p>OF late years <hi>Luffenham-Houſe</hi> (which was in the War-time ſo Nobly held out againſt the Rebels by <hi>Henry Noel</hi> 
+                  <abbr>Eſq</abbr>) became the Seat and Reſidence of another Noble Gentleman of the ſame name, the Ho<g ref="char:EOLhyphen"/>nourable <hi>Henry Noel</hi> 
+                  <abbr>Eſq</abbr> Second Son of the Right Honourable <hi>Baptiſt</hi> Viſcount <hi>Campden.</hi> Which laſt <hi>Henry</hi> Married <hi>Elizabeth,</hi> Daugh<g ref="char:EOLhyphen"/>ter and Co-heir of Sir <hi>William Wale</hi> Kt. but died without Iſſue-Male, in <hi>Septemb.</hi> 1677. leaving only one Daughter his ſole Heir. Since when, this Houſe is become the Seat of the Honourable <hi>Baptiſt Noel</hi> 
+                  <abbr>Eſq</abbr> another Son of the ſaid Viſcount <hi>Campden,</hi> who hath aug<g ref="char:EOLhyphen"/>mented, and much beautified the Building.</p>
+               <pb n="7" facs="tcp:100026:3"/>
+               <figure>
+                  <p>Luffenham Houſe</p>
+                  <p>On the Eaſt ſide</p>
+               </figure>
+               <figure>
+                  <p>Honoral<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ilick. Praeclare V<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>re Baptiſt<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> Noel Armigero Tabula meritò dicata.</p>
+                  <p>On the South ſide</p>
+                  <figDesc>depiction of house</figDesc>
+               </figure>
+               <pb n="8" facs="tcp:100026:4"/>
+               <p>Pa. 98.</p>
+               <p>THE Church at <hi>Okeham</hi> is Dedicated to <hi>All-Saints,</hi> as appears by an antient Will, Dated in the 15<hi rend="sup">th</hi> year of King <hi>Henry</hi> VII. and Proved before the Official of the Arch Deacon of <hi>Northampton,</hi> 10 <hi>May</hi> 1501. Which Will containing ſeveral obſer<g ref="char:EOLhyphen"/>vable Matters relating to this Church, and the old Cuſtoms of thoſe times, I have here tranſcribed at large, as follows:</p>
+               <p>
+                  <hi>In Dei nomine Amen. Anno Domini M. quin<g ref="char:EOLhyphen"/>centeſimo, die vero menſis Maij primo. Ego</hi> Ro<g ref="char:EOLhyphen"/>bertus Blakburn <hi>de</hi> Okeham <hi>condo Teſtamentum meum in hunc modum, primo lego animam me<g ref="char:EOLhyphen"/>am Deo patri omnipotenti, beatae Mariae ae om<g ref="char:EOLhyphen"/>nibus Sanctis ejus; Corpuſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ad ſepelien<g ref="char:EOLhyphen"/>dum in Eccleſia Omnium Sanctorum de</hi> Okeham <hi>praedicta; Item lego pro Mortuario meo meum optimum animal quod juſtum eſt; Item lego ſum<g ref="char:EOLhyphen"/>mo altari pro decemis oblitis</hi> xij d. <hi>Item lego treſ<g ref="char:EOLhyphen"/>decem denarios ut dentur in Elimoſina pro ſalute animae meae; Item lego pro obſequiis meis in primo die</hi> ij s. <hi>ſex presbiteris, in ſecundo die hoc eſt ad ſeptimum diem ſex presbiteris iſtius villae</hi> ij s. <hi>&amp; ad diem trigeſimum taliter ſex presbite<g ref="char:EOLhyphen"/>ris</hi> ij s. <hi>&amp; ad Clericos in quolibet die</hi> j d. <hi>Item lego Campanis Eccleſiae de</hi> Okeham iij s. iiij d. <hi>Item lego Guyldiis Omnium Sanctorum &amp; Beatae Mariae de eadem villa praedicta</hi> xij d. <hi>Item le<g ref="char:EOLhyphen"/>go ad vias communes</hi> xij d. <hi>Item lego</hi> Aliciae <hi>ſiliae meae de bonis meis propriis decem Marcas: Reſiduum vero omnium bonorum meorum do &amp; lego</hi> Aliciae <hi>uxori meae &amp;</hi> Willielmo Blakburn <hi>filio meo quos quidem Aliciam &amp; Willielmum fa<g ref="char:EOLhyphen"/>cio, conſtituo &amp; ordino meos veros &amp; legitimos Executores ut diſponant pro ſalute animae meae, &amp; ſit laus Deo Amen. Hiis teſtibus Magiſtro Vi<g ref="char:EOLhyphen"/>cario perpetuo Eccleſiae de Okeham pradicta, Thomas Wilkoks de Knoſton, &amp; Willielmo Man<g ref="char:EOLhyphen"/>by alias Smyth de Okeham praedicta die prae<g ref="char:EOLhyphen"/>d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>cto.</hi>
+               </p>
+               <p>IN this Town of <hi>Okeham</hi> did former<g ref="char:EOLhyphen"/>ly reſide divers wealthy Merchants of the Staple at <hi>Calais,</hi> who dealt in ſeveral Sta<g ref="char:EOLhyphen"/>ple Commodities of this Kingdom, chiefly Wooll; a Trade of very great account, while that Town was poſſeſt by the Engliſh. Of what Quality and Condition theſe Merchants were, may be gueſt by the Charities expreſt in their Wills, Regiſtred in the <hi>Prerogative-Office.</hi> One of which I will here mention, as it may be ſeen in the ſaid Office, <hi>Lib. Horn.</hi> 56.</p>
+               <p>
+                  <hi>William Waryn</hi> of <hi>Okeham</hi> Merchant of the Staple at <hi>Calais</hi> (who lyeth Buried in our <hi>Ladies Iſle,</hi> or <hi>Chappel,</hi> be<g ref="char:EOLhyphen"/>ing on the South-ſide of the <hi>Chancel</hi> in the Pariſh Church at <hi>Okeham,</hi>) by his Will, Dated 1499. (14. <hi>H.</hi> 7.) among other things, gave to the High Altar of the ſaid Pariſh-Church for Tithes and Duties forgotten, 5 <hi>l.</hi> To every Prieſt that helpeth at his Obſe<g ref="char:EOLhyphen"/>quies the Firſt, Seventh, and Thirtieth days 4 <hi>d.</hi> each day; to every poor Man, Woman and Child preſent at the ſaid Obſequies thoſe three days, 1 <hi>d.</hi> To find two Prieſts to ſing and ſay Maſſes and Service for the Souls of Him, his Father and Mother, and all Chriſti<g ref="char:EOLhyphen"/>an Souls in the Pariſh Church of <hi>Okeham</hi> for 20 years next enſuing, 200 <hi>l.</hi> To the re<g ref="char:EOLhyphen"/>paration of the ſaid Church 10 Marks. For a ſuit of Veſtments for the ſaid Church 100 Marks. To provide Freeſe Cloth, and Li<g ref="char:EOLhyphen"/>nen Cloth for Garments, Shirts and Sheets for poor People the ſpace of five years 10 Marks. To every Houſe of the four Orders of Fryers in <hi>Stanford</hi> 13 <hi>s.</hi> 4 <hi>d.</hi> To the Nuns there 13 <hi>s.</hi> 4 <hi>d.</hi> To the Gildes of the Holy Trinity, and of our Lady in <hi>Okeham,</hi> whereof he was a Brother 40 <hi>s.</hi> To the mending of High-ways and Brigs at <hi>Okeham</hi> 10 Marks. Towards the ma<g ref="char:EOLhyphen"/>king of <hi>Rocheſter</hi>-Bridge 40 <hi>s.</hi> To the Pa<g ref="char:EOLhyphen"/>riſh-Church of <hi>Lydington</hi> in <hi>Rutland</hi> 20 <hi>s.</hi> To the Church of <hi>Uppingham</hi> 10 <hi>s.</hi> To the Church of <hi>Aſton</hi> 6 <hi>s.</hi> 8 <hi>d.</hi> To the Church of <hi>Preſton</hi> 10 <hi>s.</hi> To the Gilde in the ſaid Church, of which he was a Brother 6 <hi>s.</hi> 8 <hi>d.</hi> To the Church of <hi>Pysbroke</hi> 10 <hi>s.</hi> To the Church of <hi>Somerby</hi> 13 <hi>s.</hi> 4 <hi>d.</hi> To the Church of <hi>Cotteſmore</hi> 10 <hi>s.</hi> To the Church of <hi>Langham</hi> 10 <hi>s.</hi> To the Church of <hi>Broke</hi> 6 <hi>s.</hi> 8 <hi>d.</hi> To the repara<g ref="char:EOLhyphen"/>tion of the Priory Church there 13 <hi>s.</hi> 4 <hi>d.</hi>
+                  <pb n="9" facs="tcp:100026:4"/>To the Abby of <hi>Oſolweſton</hi> in the County of <hi>Leiceſter,</hi> for the making of their Fray<g ref="char:EOLhyphen"/>tour 40 l. And 40 l. more to find a Prieſt of their Houſe, to ſing for Him and his Wife for ever. As for his Lands and Tenements which he held in <hi>Okeham,</hi> he Deviſed them all to <hi>Agnes</hi> his Wife for her Life; the Remainder to his Son <hi>Francis Waryn</hi> in Tayl; The Re<g ref="char:EOLhyphen"/>mainder to his Son <hi>James Waryn</hi> in Tayl; The Remainder to his Daughter <hi>Elizabeth Waryn</hi> in Tayl; the Remainder to be ſetled on Feoffees (if it conveniently might be) to the following Uſes, <hi>viz.</hi> The Houſe where<g ref="char:EOLhyphen"/>in he dwelt, with the Appurtenances, to the Uſe of the Vicar and Wardens of the Pariſh Church of <hi>Okeham;</hi> conditionally, That the ſaid Vicar and his Succeſſors in the ſaid Church, ſhould for ever Commemorate his Soul, and the Souls of his Father and Mother at Maſs, every Sunday in the year; otherwiſe, that the ſaid Manſion be ſold, and the Mo<g ref="char:EOLhyphen"/>nies to be diſtributed in Works of Mercy, and Deeds of Charity, for the Wele of his Soul. Three other Tenements in the ſaid Town, to the Uſe of the Abbot and Conent of <hi>Oſol<g ref="char:EOLhyphen"/>weſton,</hi> conditionally, that they maintain in their Covent, a yearly <hi>Obit,</hi> or Anniverſary for his Soul, his Fathers and Mothers, Wife, Children, and Benefactors, and all Chriſtian Souls; And at the ſame <hi>Obit</hi> diſtribute to the Abbot there 20 <hi>d.</hi> to every Chanon of that Houſe, being a Prieſt, 1 <hi>s.</hi> and to every Novice 8 <hi>d. &amp;c.</hi>
+               </p>
+               <p>IN former times, before the Reformation there was a Pilgrimage of Devotion, in Ho<g ref="char:EOLhyphen"/>nour of the Bleſſed Virgin, performed to a Spring in this Pariſh, about a Quarter of a Mile North of <hi>Okeham,</hi> which is ſtill known by the name of <hi>Our Ladies Well;</hi> near which, one may yet perceive ſeveral places where have been the Foundations of a houſe or two; And this appears more plain from a Re<g ref="char:EOLhyphen"/>cord. in the Firſt-fruits Office, <hi>Inter communia de Term. Trin.</hi> 8 <hi>Eliz. rot.</hi> 5. containing among other things—<hi>Quod plurima Commoda &amp; Emolumenta Vicariae de Okeham praedictae perti<g ref="char:EOLhyphen"/>nentia &amp; ſpectantia conſtabant in diverſis Obla<g ref="char:EOLhyphen"/>tionibus &amp; Perigrationibus utpote nuper Imagini Beatae Mariae ad fontem, &amp; etiam Sancti Micha<g ref="char:EOLhyphen"/>elis Archangili, &amp; aliis compluribus ritubus &amp; Oblationibus—Quae jam una cum Com<g ref="char:EOLhyphen"/>modis &amp; Emolumentis inde Vicario praedicto re<g ref="char:EOLhyphen"/>novantibus prorſus evannerunt.</hi>
+               </p>
+               <p>Pa. 103.</p>
+               <p>BEſides theſe two Hoſpitals, there are other conſiderable Charities belonging to the Town of <hi>Okeham, <hi>viz.</hi>
+                  </hi>
+               </p>
+               <p>
+                  <hi>Anne</hi> Lady <hi>Harington</hi> gave in the year 1616. the ſum of 32 <hi>l. per Ann.</hi> for ever, to the Poor of the Lords-Hold in this Town, as I have already mentioned, <hi>Pa.</hi> 52.</p>
+               <p>Alſo Mrs. <hi>Parthenia Lowman</hi> of <hi>London,</hi> Widow, gave to the Town of <hi>Okeham,</hi> the ſum of 100 <hi>l.</hi> for a perpetual Stock; The Pro<g ref="char:EOLhyphen"/>fits or Intereſt of which Money was on the 6th of <hi>March</hi> 1662. thus ſetled, <hi>viz.</hi> Ten Shillings part of the ſame, for a Sermon in the Church of <hi>Okeham</hi> yearly, on <hi>Aſhwedneſ<g ref="char:EOLhyphen"/>day,</hi> the reſidue to be yearly diſpoſed to ſuch Poor People as are paſt their Work and Labour, or Sick, and not able to maintain themſelves otherwiſe; Three Quarters of the Sum to be diſtributed to the Lords-Hold, and a Fourth Part to the Deans-Hold in the ſaid Town of <hi>Okeham.</hi>
+               </p>
+               <p>HEre alſo ought to be remembred the Re<g ref="char:EOLhyphen"/>markable Charity of Mr. <hi>Endymion Ca<g ref="char:EOLhyphen"/>nyng,</hi> an old Cavalier, and a Captain of Horſe in the Service of King <hi>Charles</hi> I. of ever Bleſ<g ref="char:EOLhyphen"/>ſed Memory. After the Civil Wars, he li<g ref="char:EOLhyphen"/>ved for many years at <hi>Book</hi> in this Coun<g ref="char:EOLhyphen"/>try, in the Family of the Right Honourable <hi>Julian,</hi> late Viſcounteſs <hi>Campden,</hi> to which Lady he was Steward, and her Principal Ser<g ref="char:EOLhyphen"/>vant. He Died a Batchelor at <hi>Brook</hi> in the year 1683. And by his Will, Dated on the 24<hi rend="sup">th</hi> day of <hi>May,</hi> in the year 1681, gave to Pious Uſes as follows, <hi>viz.</hi>
+               </p>
+               <pb n="10" facs="tcp:100026:5"/>
+               <p>
+                  <table>
+                     <row>
+                        <cell>To the Poor of <hi>Chipping-Campden</hi> and <hi>Berrington,</hi> in the County of <hi>Glouceſter.</hi>—</cell>
+                        <cell>200 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of the Pariſh of <hi>Mo<g ref="char:EOLhyphen"/>nyſend</hi> in <hi>Eſſer,</hi> where he was Born and Baptized.—</cell>
+                        <cell>50 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Terback</hi> in the Coun<g ref="char:EOLhyphen"/>ty of <hi>Worceſter,</hi> where he was ſometime an Inhabitant.—</cell>
+                        <cell>50 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Okeham</hi> in the Coun<g ref="char:EOLhyphen"/>ty of <hi>Rutland.</hi>—</cell>
+                        <cell>50 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Vppingham</hi> in the ſaid County.—</cell>
+                        <cell>50 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Brook</hi> in the ſaid Coun<g ref="char:EOLhyphen"/>ty.—</cell>
+                        <cell>20 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Ilmington</hi> in the County of <hi>Warwick.</hi>—</cell>
+                        <cell>20 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Aſton-Subedge</hi> in the County of <hi>Glouceſte.</hi>—</cell>
+                        <cell>20 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Bradfarton</hi> in the County of <hi>Worceſter.</hi>—</cell>
+                        <cell>20 <hi>l.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>And by a Codicel annext, Dated <hi>April</hi> 2. 1683. a little before his death he gave fur<g ref="char:EOLhyphen"/>ther.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell>To the Town of <hi>Caſtle-Bytham</hi> in the County of <hi>Lincoln,</hi> to buy a Clock for the uſe of the Town.—</cell>
+                        <cell>6 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of the ſaid Town.—</cell>
+                        <cell>10 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Exton</hi> in the County of <hi>Rutland.</hi>—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Whitwel</hi> in the ſaid County.—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>North-Luffenham</hi> in the ſaid County.—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Ridlington</hi> in the ſaid County.—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Belton</hi> in the ſaid Coun<g ref="char:EOLhyphen"/>ty.—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Braunſton</hi> in the ſaid County.—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Langham</hi> in the ſaid County.—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>To the Poor of <hi>Halſted</hi> in the County of <hi>Leiceſter.</hi>—</cell>
+                        <cell>5 <hi>l.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>Beſides other Legacies to his Relations, and Chief Friends, and to ſome Poor People par<g ref="char:EOLhyphen"/>ticularly nam'd, of which I make no menti<g ref="char:EOLhyphen"/>on here, but only of the Sums given as above expreſt to Pious and Publick Uſes, which in all amount to the Sum of 536 <hi>l.</hi>
+               </p>
+               <p>P. 108.</p>
+               <p>WHich moſt Noble Lord <hi>Edward,</hi> Earl of <hi>Gaineſborough,</hi> hath been twice Marri<g ref="char:EOLhyphen"/>ed, Firſt, to the Lady <hi>Elizabeth Wriothſley,</hi> Eldeſt Daughter and Co-Heir of <hi>Thomas</hi> late Earl of <hi>Southampton,</hi> Lord High Treaſurer of <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> by whom he hath Iſſue, One Son, <hi>Wrioth<g ref="char:EOLhyphen"/>ſley-Baptiſt</hi> Lord <hi>Campden,</hi> who is joyn'd in Commiſſion with his Father for the Lieu<g ref="char:EOLhyphen"/>tenancies of <hi>Hampſhire</hi> and <hi>Rutland;</hi> and Four Daughters; 1ſt. The Lady <hi>Frances Noel,</hi> late Wife of <hi>Simon</hi> Lord <hi>Digby,</hi> Baron of <hi>Geaſhil</hi> in <hi>Ireland,</hi> which Lady died in Child-Bed of her Firſt Child, a Daughter; not long after whoſe death, her Husband alſo departed this Life at his Houſe at <hi>Colſhil</hi> in <hi>Warwickſhire,</hi> on the 19<hi rend="sup">th</hi> of <hi>Jan.</hi> 1685; whoſe Loſs was much regretted by all that knew him, He being a Perſon of very great Honour and Virtue, and of Signal Charity; 2d. The Lady <hi>Jane Noel,</hi> Married to the Right Honourable <hi>William,</hi> now Lord <hi>Digby</hi> of <hi>Geaſhil,</hi> Brother and Heir-male of the foreſaid <hi>Simon</hi> Lord <hi>Digby;</hi> 3<hi rend="sup">d</hi>. The Lady <hi>Eli<g ref="char:EOLhyphen"/>zabeth Noel;</hi> and 4<hi rend="sup">th</hi>. The Lady <hi>Julian Noel.</hi> The ſaid Earl's Second Wife, the preſent Counteſs of <hi>Gainesborough,</hi> is <hi>Mary</hi> Daugh<g ref="char:EOLhyphen"/>ter of the Honourable <hi>James Herbert</hi> 
+                  <abbr>Eſq</abbr> Son of <hi>Philip</hi> Earl of <hi>Pembroke</hi> and <hi>Montgo<g ref="char:EOLhyphen"/>mery,</hi> Widow of Sir <hi>Robert Worteſley</hi> Knight and Baronet.</p>
+               <pb n="11" facs="tcp:100026:5"/>
+               <p>Pa. 128.</p>
+               <p>SIR <hi>William Burton</hi> here mentioned (who as I have already obſerved out of the de<g ref="char:EOLhyphen"/>ſcription of <hi>Leiceſterſhire,</hi> Pa. 108. is by that Author affirmed to be one of the Juſtices of the <hi>Kings-Bench,</hi> in the Reign of King <hi>Ed<g ref="char:EOLhyphen"/>ward</hi> III.) was Lord of <hi>Foxton,</hi> and other Lands in the County of <hi>Leiceſter;</hi> But <hi>Tolethorp</hi> in <hi>Rutland</hi> was his chief Seat. I have ſeen a Pedigree ſetting forth his Iſſue; and their ſeveral Matches, as follows;</p>
+               <list>
+                  <item>Sir <hi>William Burton</hi> Knight. Ob. 49. E. 3.=<hi>Elleonor.</hi>
+                     <list>
+                        <item>Sir <hi>Thomas Burton</hi> K<hi rend="sup">t</hi>. Ob. 8. <hi>R.</hi> 2.=<hi>Margaret</hi> Daughter of <hi>Thomas Grenham.</hi>
+                           <list>
+                              <item>Sir <hi>Thomas Burton</hi> Kt.=...... Dau. of <hi>Simon Louthe.</hi>
+                                 <list>
+                                    <head>Thomas Burton <abbr>
+                                          <hi>Eſq</hi>
+                                       </abbr>
+                                    </head>
+                                    <item>........ Dau. of Sir <hi>Robert Brabeſon</hi> Kt. Ux. 1.=
+<list>
+                                          <item>
+                                             <hi>Robert Burton</hi> Ob. S. M.</item>
+                                       </list>
+                                    </item>
+                                    <item>=......Dau. of Sir <hi>Hugh Buſhey</hi> Kt. Ux. 2.
+<list>
+                                          <item>
+                                             <hi>William Burton</hi>=......Dau. of <hi>John Foluille</hi> of <hi>Aſhby Foluille,</hi> Com. <hi>Leic.</hi>
+                                             <list>
+                                                <item>
+                                                   <hi>John Burton</hi> of <hi>Vppingham. <hi>Com.</hi> Rutland.</hi>=......Dau. of <hi>Thomas Baſſing.</hi>
+                                                   <list>
+                                                      <item>
+                                                         <hi>Thomas Burton</hi>=......Dau. of <hi>Ralph Lowe</hi> of <hi>Denbigh, <hi>Com.</hi> Derb.</hi>
+                                                         <list>
+                                                            <item>
+                                                               <hi>John Burton</hi> of <hi>Braunſton. <hi>Com.</hi> Rut.</hi> Ob. 1 Mariae.=...... Da. of ...... <hi>Blackwell.</hi>
+                                                               <list>
+                                                                  <item>
+                                                                     <hi>William Burton</hi> of <hi>Braunſton.</hi>=<hi>Alice</hi> Daugh. of <hi>Richard Peck.</hi>
+                                                                     <list>
+                                                                        <item>1 <hi>John Burton</hi>=<hi>Ann</hi> Dau. and Heir of <hi>Thomas Dig<g ref="char:EOLhyphen"/>by</hi> 
+                                                                           <abbr>Eſq</abbr>
+                                                                           <list>
+                                                                              <head>Philip <hi>Dau. of</hi> Henry Cobham al. Brook <hi>vx. I.</hi>
+                                                                              </head>
+                                                                              <item>Sir <hi>Tho. Burton</hi> of <hi>Stocker<g ref="char:EOLhyphen"/>ſon <hi>Co.</hi> Leic.</hi> Baronet. creat. 22. <hi>Jul.</hi> 20. <hi>Jac.</hi> 1.=
+<list>
+                                                                                    <item>
+                                                                                       <hi>Anne</hi> Wi. of S<hi rend="sup">r</hi> 
+                                                                                       <hi>Abell Barker</hi> Baronet.</item>
+                                                                                    <item>
+                                                                                       <hi>Eliza<g ref="char:EOLhyphen"/>beth</hi>
+                                                                                    </item>
+                                                                                    <item>
+                                                                                       <hi>Fran<g ref="char:EOLhyphen"/>ces</hi>
+                                                                                    </item>
+                                                                                 </list>
+                                                                              </item>
+                                                                              <item>=<hi>Anne</hi> Da. of <hi>Robert Reinolds</hi> of <hi>London,</hi> Gent. Ux. 2.
+<list>
+                                                                                    <item>Sir <hi>Thomas Burton,</hi> Bar,=<hi>Elizabeth</hi> Da. of Sir <hi>John Prittyman</hi> Bar.
+<list>
+                                                                                          <item>Sir <hi>Thomas Burton</hi> Bar.=<hi>Anne</hi> eldeſt Dau. of Sir <hi>Thomas Clutterbuck</hi> Kt.</item>
+                                                                                       </list>
+                                                                                    </item>
+                                                                                 </list>
+                                                                              </item>
+                                                                           </list>
+                                                                        </item>
+                                                                        <item>2 <hi>Bartin Burton</hi> of <hi>Okeham, <hi>Com.</hi> Rut.</hi>=<hi>Abigail</hi> Dau. of <hi>John Cholmley</hi> 
+                                                                           <abbr>Eſq</abbr>
+                                                                           <list>
+                                                                              <item>
+                                                                                 <hi>Andrew Burton.</hi> of <hi>Okeham</hi> 
+                                                                                 <abbr>Eſq</abbr>=<hi>Ann</hi> Daught. of <hi>William Fairmedow</hi> of <hi>London,</hi> Merch.
+<list>
+                                                                                    <item>
+                                                                                       <hi>Cornelius Bur<g ref="char:EOLhyphen"/>ton</hi> of <hi>Oke<g ref="char:EOLhyphen"/>ham</hi> 
+                                                                                       <abbr>Eſq</abbr>
+                                                                                    </item>
+                                                                                    <item>
+                                                                                       <hi>Andrew Bur<g ref="char:EOLhyphen"/>ton</hi> of <hi>Ex<g ref="char:EOLhyphen"/>ton</hi> Gent.</item>
+                                                                                    <item>
+                                                                                       <hi>Anne Abigail Mabel Elizabeth Mary Sara.</hi>
+                                                                                    </item>
+                                                                                 </list>
+                                                                              </item>
+                                                                              <item>
+                                                                                 <hi>Mabell</hi> Wife of <hi>John Booth</hi> of <hi>Okeham</hi> Gent.</item>
+                                                                           </list>
+                                                                        </item>
+                                                                        <item>3 <hi>Simon Burton</hi> of <hi>Braunſton.</hi>
+                                                                        </item>
+                                                                     </list>
+                                                                  </item>
+                                                               </list>
+                                                            </item>
+                                                         </list>
+                                                      </item>
+                                                   </list>
+                                                </item>
+                                             </list>
+                                          </item>
+                                       </list>
+                                    </item>
+                                 </list>
+                              </item>
+                           </list>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <pb n="12" facs="tcp:100026:6"/>
+               <p>Pa. 136.</p>
+               <p>
+                  <hi>ROger Flower</hi> of <hi>Okeham,</hi> here named, who Married <hi>Catherine,</hi> Daughter and Cohe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of <hi>William Dalby,</hi> was a Perſon of ſo great Note in this County, that I ought not to omit here what I find memorable of him, out of his Will, Regiſtred in the <hi>Prerogative-Office, Lib. Luffnam, f.</hi> 69.</p>
+               <p>By his ſaid Will, Dated 15 <hi>April</hi> 1424, he appointed his Body to be Buried in the Church of <hi>All-Saints</hi> at <hi>Okeham.</hi> His beſt Animal he gave for a Mortuary. To the Vicar of <hi>Okeham</hi> for Tithes forgot, 10 <hi>s.</hi> To the Guilds of the Holy Trinity, the Bleſſed Vir<g ref="char:EOLhyphen"/>gin, and <hi>St. Michael</hi> at <hi>Okeham,</hi> 40 <hi>s.</hi> To the Chaplain of the ſaid Pariſh, 2 <hi>s.</hi> and to every other Chaplain of the ſaid Town, 1 <hi>s.</hi> To every Order of Friers at <hi>Stanford,</hi> the Carthuſians at <hi>Coventry,</hi> the Abby of <hi>Weſt<g ref="char:EOLhyphen"/>minſter,</hi> and the Priory of <hi>Laund,</hi> 6 Marks, to pray for the Souls of <hi>Katherine</hi> his late Wife, <hi>William</hi> his Father, <hi>Ellen</hi> his Mother, <hi>William</hi> his Brother, <hi>William Dalby</hi> and <hi>Ag<g ref="char:EOLhyphen"/>nes</hi> his Wife, <hi>William</hi> and <hi>John</hi> his Sons, <hi>Agnes Pleſſington</hi> his Daughter, and <hi>Edward</hi> late Duke of <hi>York.</hi> To certain Chaplains by his Executors to be appointed to celebrate for his Soul, the Soul of King <hi>Henry</hi> 5th, and the other Souls aforeſaid, 40 <hi>l.</hi> To be di<g ref="char:EOLhyphen"/>ſtributed to the Poor, and for the performing of his Exequies; 50 Marks. To the Alms-houſe of <hi>Okeham,</hi> towards the Repairs of the Chappel, and Ornaments of the Altar there, 50 <hi>s.</hi> To every poor Man of the ſaid Houſe, 4 <hi>d.</hi> To the mending of the High<g ref="char:EOLhyphen"/>ways, Bridges, and Cauſeways at <hi>Okeham,</hi> 50 <hi>s.</hi> To every Monk of <hi>Weſtminſter</hi> being a Prieſt 1 <hi>s.</hi> not a Prieſt, 8 <hi>d.</hi> To the great Guild at <hi>Coventry,</hi> 40 <hi>s.</hi> To the Prior and Canons of <hi>Brooke,</hi> 13 <hi>s.</hi> 4 <hi>d.</hi> To the Nuns of <hi>Langly</hi> and <hi>Huntington,</hi> and Prior, and Canons of <hi>Newſted</hi> near <hi>Stamford,</hi> each Houſe 13 <hi>s.</hi> 4 <hi>d.</hi> To 20 poor People of <hi>Oke<g ref="char:EOLhyphen"/>ham,</hi> each a Gown of <hi>Coventry</hi> Freeſe, and a new Shirt. To the Maſter of the Chan<g ref="char:EOLhyphen"/>try at <hi>Manton</hi> (whom he made one of his Executors,) he gave his pair of Beads which he uſed himſelf, with the Ten <hi>Aves</hi> of Silver, and a <hi>Pater noſter</hi> over-Gilt, praying him to be mindful of him ſomtimes when he ſaith our Ladies Sawter on them. It appears by the ſaid Will, that he was the Principal (if not only,) Benefactor to the Building of the Voute (<hi>i. e.</hi> the Spire) of the Steeple at <hi>Okeham:</hi> And that he was the Farmer or Leſſee of the Parſonage Tithes at <hi>Okeham,</hi> under the Ab<g ref="char:EOLhyphen"/>bot and Covent of <hi>Weſtminſter.</hi> Beſides his Lands and Revenues in <hi>Okeham, Whit<g ref="char:EOLhyphen"/>well,</hi> and <hi>Little-Hambleton,</hi> in this Coun<g ref="char:EOLhyphen"/>ty, he had divers Lands in <hi>Lincolnſhire;</hi> and in <hi>Leiceſtershire, Leeſthorp,</hi> and the Mannours of <hi>Steneby</hi> and <hi>Braceby,</hi> which two laſt he deviſed to his Second Wife <hi>Ceci<g ref="char:EOLhyphen"/>ly,</hi> during Widowhood, or (as the words of the Will are,) <hi>In caſe ſhe take upon her the Mantle and Ring, and avow Chaſtity.</hi> He left Iſſue at his death five Sons, <hi>Thomas</hi> his Son and Heir, <hi>Robert</hi> deſigned to be a Prieſt, <hi>James, Roger,</hi> and <hi>John,</hi> and <hi>Agnes</hi> a Daughter.</p>
+               <p>Pa. 38. Col. 2. l. 12. <hi>add,</hi> Which <hi>Ezekiel Johnſon</hi> hath ſince, by Deed of Bargain and Sale, bearing Date 2. <hi>July</hi> 1686. and Inrolled in <hi>Chancery</hi> the 5<hi rend="sup">th</hi> of the ſame Month, Sold, Granted, and Conveyed, the Mannor of <hi>Clipſham,</hi> with all the Lands, Tene<g ref="char:EOLhyphen"/>ments, Paſtures, and Wood-Grounds to him belonging in <hi>Clipſham, Pickworth, Stretton,</hi> and <hi>Thiſleton</hi> in the County of <hi>Rutland,</hi> And the perpetual Advowſon of the Church of <hi>Clipſham,</hi> to <hi>Richard Snow,</hi> Gentleman, (one of the Clerks in <hi>Chancery</hi>) his Heirs and Aſſigns for ever. Which <hi>Ri<g ref="char:EOLhyphen"/>chard</hi> is the youngeſt Son of <hi>John Snow,</hi> here<g ref="char:EOLhyphen"/>tofore of <hi>Gunnerby</hi> in the County of <hi>Lin<g ref="char:EOLhyphen"/>coln,</hi> Gent. and hath Married <hi>Grace</hi> the el<g ref="char:EOLhyphen"/>deſt Daughter of <hi>Edmund Bolſworth,</hi> Citizen of <hi>London,</hi> by whom he hath had iſſue of both Sexes.</p>
+               <p>P. 30. col. 2. l. 31. <hi>add, in</hi> Auguſt 1621.</p>
+               <p>P. 43. col. 2. l. 17. add, <hi>Theſe Antient</hi> Guilds <hi>in</hi> England <hi>were of the ſame nature with thoſe Fraternities of Houſholders, and others of both Sexes, which are now called</hi> Sodalities, <hi>be<g ref="char:EOLhyphen"/>yond Seas.</hi>
+               </p>
+               <p>
+                  <hi>Corrigenda.</hi>
+               </p>
+               <p>
+                  <hi>IN the Pedigree</hi> p. 63. for, Elizabetha fil. &amp; h. Will. Com. Rut. Ux. 1. <hi>read</hi> Eliza<g ref="char:EOLhyphen"/>betha fil. &amp; h. Edw. Com. Rut. Ux. 1. <hi>In the Ped.</hi> p. 79. for, <hi>Maurice Rich</hi> read <hi>Mau<g ref="char:EOLhyphen"/>rice Roche.</hi> p. 96. col. 1. l. 29. for <hi>Henry</hi> read <hi>Edward. In the Pedigree,</hi> p. 109. for <hi>Eliz.</hi> f. &amp; coh. <hi>Tho. Dom. Wotton.</hi> read <hi>Heſter</hi> f. &amp; coh. <hi>Tho. Dom. Wotton. In the ſame Pedigree theſe Letters [ob. ſ. m.] which by miſtake are miſplaced under the Name</hi> [Johannes Noel <hi>Arm.</hi>] <hi>ſhould be removed, and ſtand under the Name</hi> [Henri<g ref="char:EOLhyphen"/>cus Noel <hi>Arm.</hi>] <hi>who died without Iſſue Male.</hi>
+               </p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="license">
+            <p>
+               <hi>Licenſed</hi> Jan. 4. 1686.</p>
+            <closer>
+               <signed>Roger L'Eſtrange.</signed>
+            </closer>
+         </div>
+         <div type="colophon">
+            <p>
+               <hi>LONDON,</hi> Printed for the Author by <hi>Edw Jones,</hi> 1687.</p>
+         </div>
+         <div type="by_the_same_author">
+            <pb facs="tcp:100026:6" rendition="simple:additions"/>
+            <p>Farther ADDITIONS TO THE Hiſtory and Antiquities OF THE COUNTY of <hi>RUTLAND.</hi> By the ſame Author.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
